@@ -132,7 +132,7 @@
 	function onLogin(identity) {
 		
 		
-		console.log(identity);
+		//console.log(identity);
         alert("OnLogin :", identity.username);
 		}
 	
