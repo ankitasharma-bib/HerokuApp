@@ -131,6 +131,9 @@
 
 	function onLogin(identity) {
 		
+		
+		
+        alert("OnLogin :", identity.username);
 		var targetDiv = document.querySelector(SFIDWidget.config.target);	
 		
 		var avatar = document.createElement('a'); 
